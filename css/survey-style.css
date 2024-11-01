@@ -1,0 +1,41 @@
+.survey-form .required {
+	color: red;
+	font-size: 12px;
+}
+
+.survey-form .survey-right {
+	display: inline;
+	line-height: 2em;
+}
+
+.survey-form  option {
+	font-size: 12px;
+}
+
+.survey-sum {
+	padding:  0 5px 0 5px;
+	margin:  0 5px 0 5px;
+}
+
+.survey-title {
+	padding: 10px 0 10px 0;	
+}
+
+.question-title {
+	background: #333;
+	font-weight: bold;
+	font-size: 1.4em;
+	color: #F0F0F0;
+	padding: 10px;
+	margin: 10px 0 10px 0;
+}
+
+#send h1 {
+	padding: 20px 0 20px 0;
+}
+
+@media screen and (max-width: 66.5em) { 
+	.survey-form  input {
+		max-width:200px;
+	}
+}
